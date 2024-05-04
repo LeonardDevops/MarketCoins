@@ -32,6 +32,18 @@ h1 span {
 }
 
 
+@media (max-width:600px) {
+    .containerLogo {
+        display: flex;
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 43px;
+        margin-bottom: 50px;
+    }
+}
+
 img {
     display: flex;
     max-width: 300px;

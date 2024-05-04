@@ -30,7 +30,7 @@
 
 .form {
     display: flex;
-    gap: 20px;
+    gap: 7px;
     width: 90%;
 }
 
@@ -132,7 +132,6 @@ td span {
     padding: 8px 24px;
     border-radius: 8px;
     margin: 14px 0;
-    margin-right: 78%;
     color: #fff;
 }
 
