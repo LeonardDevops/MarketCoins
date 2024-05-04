@@ -38,6 +38,7 @@ h1 span {
         width: 80%;
         align-items: center;
         justify-content: center;
+        height: 40px;
         flex-direction: column;
         margin-left: 43px;
         margin-bottom: 50px;
