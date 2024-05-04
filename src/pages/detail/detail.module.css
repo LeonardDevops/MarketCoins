@@ -1,0 +1,98 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: solid 0.5px white;
+    border-radius: 6px;
+    height: 500px;
+    gap: 10px;
+    background-color: #1d1c20;
+    margin: auto;
+    color: #ffff;
+    transition: 1.2s all;
+}
+
+.container:hover {
+    background-color: #b8b8b8;
+    color: #000000;
+}
+
+@-webkit-keyframes container {
+    0% {
+        -webkit-transform: translateX(0) translateZ(0) rotateY(0);
+        transform: translateX(0) translateZ(0) rotateY(0);
+        -webkit-transform-origin: 100% 50%;
+        transform-origin: 100% 50%;
+    }
+
+    100% {
+        -webkit-transform: translateX(100%) translateZ(160px) rotateY(-180deg);
+        transform: translateX(100%) translateZ(160px) rotateY(-180deg);
+        -webkit-transform-origin: 0% 50%;
+        transform-origin: 0% 50%;
+    }
+}
+
+@keyframes container {
+    0% {
+        -webkit-transform: translateX(0) translateZ(0) rotateY(0);
+        transform: translateX(0) translateZ(0) rotateY(0);
+        -webkit-transform-origin: 100% 50%;
+        transform-origin: 100% 50%;
+    }
+
+    100% {
+        -webkit-transform: translateX(100%) translateZ(160px) rotateY(-180deg);
+        transform: translateX(100%) translateZ(160px) rotateY(-180deg);
+        -webkit-transform-origin: 0% 50%;
+        transform-origin: 0% 50%;
+    }
+}
+
+
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    background-color: #b8b8b8;
+    border-radius: 97px;
+    margin-bottom: 50px;
+    transition: 1s all;
+}
+
+.container:hover>.logo {
+    background-color: #000000;
+}
+
+strong {
+    color: #fff;
+}
+
+.container:hover strong {
+    color: #000000;
+}
+
+.winer {
+    color: #03924d;
+    font-weight: bold;
+}
+
+.Loss {
+    color: #f91257;
+    font-weight: bold;
+}
+
+
+@media (max-width: 600px) {
+
+    .container {
+        width: 80%;
+    }
+}
