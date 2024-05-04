@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
 
+
 }
 
 @keyframes scale-in-ver-top {
@@ -40,7 +41,7 @@
     padding: 0 8px;
     border-radius: 4px;
     outline: none;
-    transition: 1.5s ease-in-out;
+    transition: 1s ease-in-out;
 }
 
 .form input:focus {
@@ -80,6 +81,12 @@ th {
     background-color: #1d1c20;
     -webkit-animation: scale-in-ver-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: scale-in-ver-top 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    transition: 0.5s;
+
+}
+
+.tr:hover {
+    background-color: #308aff;
 }
 
 td:first-child,
@@ -97,6 +104,11 @@ table th,
 table td {
     padding: 14px;
     text-align: center;
+}
+
+td span {
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .tdLabel {
@@ -125,20 +137,14 @@ table td {
 }
 
 
-
-
 .logo {
     display: flex;
     width: 30px;
     height: 30px;
     margin-left: 60px;
     transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
-}
 
-.logo:hover {
-    transform: scale(1.5);
 }
-
 
 /*resposividade*/
 

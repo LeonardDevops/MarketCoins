@@ -77,8 +77,9 @@ export function Detail() {
 
     if (load) {
         return (
-            <div>
-                <h4>Carregando detalhes....</h4>
+            <div className={styles.cspiner}>
+                <span className={styles.spiner}>
+                </span>
             </div>
         )
     }

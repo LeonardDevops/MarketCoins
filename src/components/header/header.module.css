@@ -6,8 +6,31 @@
     width: 100%;
     -webkit-animation: scale-in-hor-center 2.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: scale-in-hor-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+h1 {
+    font-family: "Briem Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    margin-bottom: 15px;
 
 }
+
+h1 span {
+    color: #30bfff;
+    font-size: 25px;
+}
+
+.containerLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    transition: 1s step-end;
+}
+
 
 img {
     display: flex;

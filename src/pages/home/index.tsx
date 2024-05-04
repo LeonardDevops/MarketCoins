@@ -93,7 +93,7 @@ export function Home() {
         evento.preventDefault();
 
         if (input === "") return;
-        navigate(`/detail/${input}`)
+        navigate(`/detail/${input.toLowerCase()}`)
 
     }
 
@@ -133,6 +133,7 @@ export function Home() {
                 <tbody id="tbody">
 
                     {coins.length > 0 && coins.map((itens) => (
+
                         <tr className={styles.tr} key={itens.id}>
 
                             <td className={styles.tdLabel} data-label="Moeda">
